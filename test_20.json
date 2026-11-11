@@ -1,0 +1,669 @@
+{
+  "summary": {
+    "total_files": 20,
+    "processed_ok": 20,
+    "errors": 0,
+    "recommendation_distribution": {
+      "escalar_humano": 16,
+      "pedir_mas_informacion": 4
+    },
+    "avg_seriousness": 0.955,
+    "avg_improcedence": 0.041,
+    "avg_confidence": 0.881,
+    "error_files": [],
+    "total_time_seconds": 1575.2
+  },
+  "results": [
+    {
+      "file": "call_1.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: dead, doctor, fire, fire department, firefighters, gun, help, injured, police, shooting, shot, threat, weapon.",
+          "Tipo de incidente detectado: fire, shooting, threat.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.602,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.64,
+          "urgency_score": 0.58,
+          "nervousness_score": 0.794
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_10.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.926,
+        "improcedence_score": 0.1,
+        "confidence": 1.0,
+        "recommendation": "pedir_mas_informacion",
+        "evidence": [
+          "Variabilidad acustica detectada.",
+          "Inestabilidad vocal elevada.",
+          "Calma acustica predominante.",
+          "Falta informacion critica para evaluar el reporte.",
+          "Palabras de emergencia: help.",
+          "Se detecto posible ubicacion.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.488,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.581,
+          "urgency_score": 0.479,
+          "nervousness_score": 0.592
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_100.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 0.772,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Patron acustico compatible con desesperacion.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: ambulance, emergency, help, injured.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.603,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.61,
+          "urgency_score": 0.585,
+          "nervousness_score": 0.783
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_101.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: gun, help, police.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.516,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.608,
+          "urgency_score": 0.348,
+          "nervousness_score": 0.803
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_102.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.947,
+        "improcedence_score": 0.0,
+        "confidence": 0.792,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: ambulance, help.",
+          "Se mencionan posibles personas afectadas.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.521,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.597,
+          "urgency_score": 0.286,
+          "nervousness_score": 0.805
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_103.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Inestabilidad vocal elevada.",
+          "Calma acustica predominante.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: ambulance, fire, gun, shot, weapon.",
+          "Tipo de incidente detectado: fire.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.501,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.535,
+          "urgency_score": 0.549,
+          "nervousness_score": 0.604
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_104.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: 911, ambulance, attacked, bleeding, blood, emergency, help, weapon.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.498,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.545,
+          "urgency_score": 0.369,
+          "nervousness_score": 0.737
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_105.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.918,
+        "improcedence_score": 0.07,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Stress vocal alto.",
+          "Urgencia acustica alta.",
+          "Nerviosismo vocal alto.",
+          "Patron acustico compatible con desesperacion.",
+          "Inestabilidad vocal elevada.",
+          "El audio muestra indicadores fuertes de crisis; se prioriza atencion humana.",
+          "Palabras de emergencia: emergency.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.745,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.778,
+          "urgency_score": 0.75,
+          "nervousness_score": 0.868
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_106.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.908,
+        "improcedence_score": 0.25,
+        "confidence": 0.777,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Se detectaron terminos asociados a broma o burla.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: 911, dead, emergency, fire, fire department, gun, help, injured, police, shooting, shot.",
+          "Tipo de incidente detectado: fire, shooting.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.574,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.611,
+          "urgency_score": 0.544,
+          "nervousness_score": 0.79
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_107.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.903,
+        "improcedence_score": 0.07,
+        "confidence": 0.747,
+        "recommendation": "pedir_mas_informacion",
+        "evidence": [
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Stress vocal alto.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "El audio sugiere urgencia, pero falta informacion critica.",
+          "Palabras de emergencia: emergency.",
+          "Se detecto posible ubicacion.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.554,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.664,
+          "urgency_score": 0.417,
+          "nervousness_score": 0.81
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_108.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.863,
+        "improcedence_score": 0.15,
+        "confidence": 0.817,
+        "recommendation": "pedir_mas_informacion",
+        "evidence": [
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "El caso conserva incertidumbre operativa.",
+          "Palabras de emergencia: police.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.46,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.577,
+          "urgency_score": 0.26,
+          "nervousness_score": 0.719
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_109.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.895,
+        "improcedence_score": 0.08,
+        "confidence": 0.779,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Alta proporcion de silencio.",
+          "Pausas prolongadas detectadas.",
+          "Inestabilidad vocal elevada.",
+          "Baja confiabilidad de los indicadores de audio.",
+          "Audio con posible mala calidad.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: bleeding, dead, fire, police, shooting, shot.",
+          "Tipo de incidente detectado: fire, shooting.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.34,
+          "audio_reliability": 0.45,
+          "stress_vocal_score": 0.543,
+          "urgency_score": 0.202,
+          "nervousness_score": 0.6
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_11.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 0.737,
+        "improcedence_score": 0.1,
+        "confidence": 0.788,
+        "recommendation": "pedir_mas_informacion",
+        "evidence": [
+          "Calma acustica predominante.",
+          "Baja confiabilidad de los indicadores de audio.",
+          "El caso conserva incertidumbre operativa.",
+          "Palabras de emergencia: 911, emergency, help.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.358,
+          "audio_reliability": 0.4,
+          "stress_vocal_score": 0.454,
+          "urgency_score": 0.516,
+          "nervousness_score": 0.521
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_110.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Calma acustica predominante.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: 911, dead, emergency, gun, injured, shooting, shot.",
+          "Tipo de incidente detectado: shooting.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.473,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.482,
+          "urgency_score": 0.438,
+          "nervousness_score": 0.692
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_111.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: 911, emergency, fire, fire department, firefighters, help.",
+          "Tipo de incidente detectado: fire.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.52,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.56,
+          "urgency_score": 0.547,
+          "nervousness_score": 0.692
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_112.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 0.797,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: fire, gun, help, police, shot.",
+          "Tipo de incidente detectado: fight, fire.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.59,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.594,
+          "urgency_score": 0.581,
+          "nervousness_score": 0.827
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_113.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 1.0,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: fire, gun, robbery, weapon.",
+          "Tipo de incidente detectado: fire, robbery.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.569,
+          "audio_reliability": 1.0,
+          "stress_vocal_score": 0.617,
+          "urgency_score": 0.52,
+          "nervousness_score": 0.776
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_114.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 0.792,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: 911, ambulance, help, police.",
+          "Se detecto posible ubicacion.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.488,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.523,
+          "urgency_score": 0.394,
+          "nervousness_score": 0.731
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_115.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 0.787,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Variabilidad acustica detectada.",
+          "Nerviosismo vocal alto.",
+          "Patron acustico compatible con desesperacion.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: ambulance, help, injured.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know, i have no idea.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.57,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.619,
+          "urgency_score": 0.56,
+          "nervousness_score": 0.661
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    },
+    {
+      "file": "call_116.mp3",
+      "status": "ok",
+      "score": {
+        "seriousness_score": 1.0,
+        "improcedence_score": 0.0,
+        "confidence": 0.782,
+        "recommendation": "escalar_humano",
+        "evidence": [
+          "Terminos de alto riesgo presentes.",
+          "Pausas prolongadas detectadas.",
+          "Nerviosismo vocal alto.",
+          "Inestabilidad vocal elevada.",
+          "Se detectaron terminos de alto riesgo; se prioriza seguridad.",
+          "Palabras de emergencia: emergency, gun.",
+          "Se detecto posible ubicacion.",
+          "Se mencionan posibles personas afectadas.",
+          "Respuestas evasivas: i don't know.",
+          "Intencion estimada: reporte_emergencia_o_incidente."
+        ],
+        "audio_priority": {
+          "used": true,
+          "seriousness_audio_score": 0.434,
+          "audio_reliability": 0.6,
+          "stress_vocal_score": 0.505,
+          "urgency_score": 0.285,
+          "nervousness_score": 0.738
+        },
+        "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+      },
+      "transcript": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+
+# Interfaz grafica (python app.py):
+flask>=3.0
+
+# Opcional para transcripcion local automatica:
+# openai-whisper>=20231117
+
+# Desarrollo (linting, configurado en pyproject.toml):
+# ruff>=0.15

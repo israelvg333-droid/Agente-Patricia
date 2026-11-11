@@ -1,0 +1,18 @@
+{
+  "total": 23,
+  "aciertos": 18,
+  "exactitud": 0.7826,
+  "esperado": {
+    "continuar": 4,
+    "escalar_humano": 8,
+    "pedir_mas_informacion": 7,
+    "posible_improcedente": 4
+  },
+  "obtenido": {
+    "continuar": 4,
+    "pedir_mas_informacion": 10,
+    "escalar_humano": 7,
+    "posible_improcedente": 2
+  },
+  "grafica": "C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\reportes\\evaluacion_23_guiones_sinteticos.png"
+}

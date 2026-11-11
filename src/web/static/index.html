@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EVA · Análisis de llamadas de emergencia</title>
+  <link rel="icon" type="image/png" href="/static/img/favicon.png">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#view">Saltar al contenido</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <div class="brand">
+        <div class="brand-plate">
+          <img src="/static/img/eva-logo.png" alt="Logotipo de EVA">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">EVA</span>
+          <span class="brand-sub">Análisis de seriedad de llamadas de emergencia</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#/panel" data-route="panel">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h8V3H3zm10 8h8V11h-8zM3 21h8v-6H3zm10-18v6h8V3z"/></svg>
+          <span>Panel</span>
+        </a>
+        <a href="#/analizar" data-route="analizar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11z"/></svg>
+          <span>Analizar llamada</span>
+          <span class="nav-live" id="nav-live" hidden>en curso</span>
+        </a>
+        <a href="#/historial" data-route="historial">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3a9 9 0 0 0-9 9H1l3.9 3.9L9 12H6a7 7 0 1 1 2.05 4.95l-1.42 1.42A9 9 0 1 0 13 3zm-1 5v5l4.25 2.52.77-1.28-3.52-2.09V8z"/></svg>
+          <span>Historial</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="sys" id="sys-pill" role="status" aria-live="polite">
+          <span class="sys-dot"></span><span class="sys-label">Consultando sistema…</span>
+        </div>
+        <p class="motto">La tecnología analiza las señales; la persona toma la decisión.</p>
+      </div>
+    </aside>
+
+    <main class="main" id="view" tabindex="-1" aria-live="polite"></main>
+  </div>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

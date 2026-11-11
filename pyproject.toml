@@ -1,0 +1,27 @@
+[project]
+name = "subagente-seriedad"
+version = "0.1.0"
+description = "MVP local para estimar probabilisticamente la seriedad de llamadas de emergencia (audio-first)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# El cacheprovider se desactiva porque .pytest_cache ha presentado problemas de
+# permisos en este entorno Windows (ver MEJORAS_PROYECTO.md, sesion 2026-07-14).
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".venv", ".numba_cache", "data", "dataset_clasificado"]
+
+[tool.ruff.lint]
+# E/W: pycodestyle, F: pyflakes, I: isort, UP: pyupgrade, B: bugbear
+select = ["E", "F", "W", "I", "UP", "B"]
+# E501 en tests: cadenas largas de casos de prueba no ameritan romperse.
+# E402 en procesar_dataset.py y scripts/: los imports de src/ requieren el
+# sys.path.insert previo (bootstrap de scripts ejecutables fuera del paquete).
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
+"procesar_dataset.py" = ["E402"]
+"scripts/*" = ["E402"]

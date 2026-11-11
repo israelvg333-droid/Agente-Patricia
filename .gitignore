@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+.venv/
+
+# Pytest
+.pytest_cache/
+.tmp_pytest/
+.tmp_pytest_cache/
+.tmp_pytest_run/
+
+# Resultados generados
+data/outputs/
+
+# Archivos subidos desde la interfaz grafica
+data/uploads/
+
+# Artefactos del procesamiento batch del dataset
+.numba_cache/
+dataset_clasificado/
+
+# Audios de llamadas (pesados, no se suben al repo)
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.wma
+
+# Audios descartados
+data/audios_descartados/
+
+# Cache local de ruff
+.ruff_cache/

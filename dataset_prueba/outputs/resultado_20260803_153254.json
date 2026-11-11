@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-08-03T15:32:54",
+  "input": {
+    "audio": "C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-11.mp3",
+    "transcript": null,
+    "mode": "audio"
+  },
+  "transcription": {
+    "text": "",
+    "engine": "openai-whisper-local-tiny",
+    "model": "tiny",
+    "language": "es",
+    "status": "whisper_error",
+    "message": "Whisper no pudo transcribir el audio. Verifique que ffmpeg este instalado y disponible en PATH. Detalle: Failed to load audio: ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev13, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper\r\n  libavutil      60. 26.101 / 60. 26.101\r\n  libavcodec     62. 28.101 / 62. 28.101\r\n  libavformat    62. 12.101 / 62. 12.101\r\n  libavdevice    62.  3.101 / 62.  3.101\r\n  libavfilter    11. 14.101 / 11. 14.101\r\n  libswscale      9.  5.101 /  9.  5.101\r\n  libswresample   6.  3.101 /  6.  3.101\r\n[in#0 @ 00000213e536fe40] Format mp3 detected only with low score of 1, misdetection possible!\r\n[in#0 @ 00000213e536fe40] Failed to find two consecutive MPEG audio frames.\r\n[in#0 @ 00000213e53f0940] Error opening input: Invalid data found when processing input\r\nError opening input file C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-11.mp3.\r\nError opening input files: Invalid data found when processing input\r\n"
+  },
+  "acoustic_features": {
+    "duration_seconds": null,
+    "rms_energy": null,
+    "mean_energy": null,
+    "max_energy": null,
+    "energy_std": null,
+    "peak_amplitude": null,
+    "zero_crossing_rate": null,
+    "estimated_tempo_bpm": null,
+    "estimated_f0_hz": null,
+    "estimated_f0_min_hz": null,
+    "estimated_f0_max_hz": null,
+    "estimated_f0_std_hz": null,
+    "estimated_jitter_ratio": null,
+    "estimated_shimmer_ratio": null,
+    "mfcc_mean": null,
+    "mfcc_std": null,
+    "spectral_centroid_hz": null,
+    "spectral_rolloff_hz": null,
+    "spectral_bandwidth_hz": null,
+    "spectral_flatness": null,
+    "silence_ratio": null,
+    "pause_count": null,
+    "mean_pause_seconds": null,
+    "longest_pause_seconds": null,
+    "silence": {
+      "silence_ratio": null,
+      "pause_count": null,
+      "mean_pause_seconds": null,
+      "longest_pause_seconds": null
+    },
+    "approx_speech_rate": null,
+    "word_count_from_transcript": 0,
+    "audio_quality": "no_evaluada",
+    "clipping_ratio": null,
+    "estimated_snr_db": null,
+    "acoustic_anomaly_flags": [],
+    "emergency_audio_indicators": {
+      "stress_vocal_score": null,
+      "urgency_score": null,
+      "nervousness_score": null,
+      "desperation_score": null,
+      "calm_score": null,
+      "aggression_score": null,
+      "voice_instability_score": null,
+      "voice_tremor_score": null,
+      "audio_reliability": 0.0,
+      "seriousness_audio_score": null,
+      "indicator_flags": [],
+      "method": "not_available",
+      "note": "No se pudo cargar el audio C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-11.mp3. Verifique que el formato sea valido y que ffmpeg/libsndfile pueda decodificarlo, especialmente para .mp3 o .m4a."
+    },
+    "note": "No se pudo cargar el audio C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-11.mp3. Verifique que el formato sea valido y que ffmpeg/libsndfile pueda decodificarlo, especialmente para .mp3 o .m4a."
+  },
+  "semantic_analysis": {
+    "word_count": 0,
+    "emergency_keywords": [],
+    "joke_or_mockery_keywords": [],
+    "incident_keywords": [],
+    "has_location": false,
+    "has_affected_people": false,
+    "has_incident_type": false,
+    "completeness_items": {
+      "has_location": false,
+      "has_affected_people": false,
+      "has_incident_type": false,
+      "has_minimum_detail": false
+    },
+    "completeness_score": 0.0,
+    "text_is_empty": true
+  },
+  "intent_analysis": {
+    "intent": "sin_contenido",
+    "has_emergency_intent": false,
+    "has_high_risk_terms": false,
+    "high_risk_terms": []
+  },
+  "coherence_analysis": {
+    "coherence_score": 0.85,
+    "evasive_responses": [],
+    "simple_contradictions": [],
+    "topic_shift_markers": [],
+    "sentence_count": 0
+  },
+  "score": {
+    "seriousness_score": 0.2,
+    "improcedence_score": 0.4,
+    "confidence": 0.435,
+    "recommendation": "pedir_mas_informacion",
+    "evidence": [
+      "La confianza es baja; se debe pedir mas informacion.",
+      "Intencion estimada: sin_contenido."
+    ],
+    "audio_priority": {
+      "used": false,
+      "seriousness_audio_score": null,
+      "audio_reliability": 0.0,
+      "stress_vocal_score": null,
+      "urgency_score": null,
+      "nervousness_score": null
+    },
+    "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+  },
+  "recommendation": "pedir_mas_informacion",
+  "evidence": [
+    "La confianza es baja; se debe pedir mas informacion.",
+    "Intencion estimada: sin_contenido."
+  ]
+}

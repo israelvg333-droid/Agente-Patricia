@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-08-03T15:34:13",
+  "input": {
+    "audio": null,
+    "transcript": "C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-23.txt",
+    "mode": "transcript_only"
+  },
+  "transcription": {
+    "text": "Jajaja, era broma. Quería molestar a alguien, fue un juego. No es cierto nada de esto. Da igual, quien sabe. Mejor de musica o de otra cosa.",
+    "engine": "manual_txt",
+    "language": "es",
+    "status": "ok",
+    "source": "C:\\Users\\dotis\\Documents\\Detecciones de comportamientos en agentes\\Investigaciones\\Metodologia\\subagente_seriedad\\dataset_prueba\\G-23.txt"
+  },
+  "acoustic_features": {
+    "duration_seconds": null,
+    "rms_energy": null,
+    "mean_energy": null,
+    "max_energy": null,
+    "energy_std": null,
+    "peak_amplitude": null,
+    "zero_crossing_rate": null,
+    "estimated_tempo_bpm": null,
+    "estimated_f0_hz": null,
+    "estimated_f0_min_hz": null,
+    "estimated_f0_max_hz": null,
+    "estimated_f0_std_hz": null,
+    "estimated_jitter_ratio": null,
+    "estimated_shimmer_ratio": null,
+    "mfcc_mean": null,
+    "mfcc_std": null,
+    "spectral_centroid_hz": null,
+    "spectral_rolloff_hz": null,
+    "spectral_bandwidth_hz": null,
+    "spectral_flatness": null,
+    "silence_ratio": null,
+    "pause_count": null,
+    "mean_pause_seconds": null,
+    "longest_pause_seconds": null,
+    "silence": {
+      "silence_ratio": null,
+      "pause_count": null,
+      "mean_pause_seconds": null,
+      "longest_pause_seconds": null
+    },
+    "approx_speech_rate": null,
+    "word_count_from_transcript": 27,
+    "audio_quality": "no_evaluada",
+    "clipping_ratio": null,
+    "estimated_snr_db": null,
+    "acoustic_anomaly_flags": [],
+    "emergency_audio_indicators": {
+      "stress_vocal_score": null,
+      "urgency_score": null,
+      "nervousness_score": null,
+      "desperation_score": null,
+      "calm_score": null,
+      "aggression_score": null,
+      "voice_instability_score": null,
+      "voice_tremor_score": null,
+      "audio_reliability": 0.0,
+      "seriousness_audio_score": null,
+      "indicator_flags": [],
+      "method": "not_available",
+      "note": "modo_transcript_only"
+    },
+    "note": "modo_transcript_only"
+  },
+  "semantic_analysis": {
+    "word_count": 27,
+    "emergency_keywords": [],
+    "joke_or_mockery_keywords": [
+      "broma",
+      "era broma",
+      "jajaja",
+      "molestar",
+      "no es cierto"
+    ],
+    "incident_keywords": [],
+    "has_location": false,
+    "has_affected_people": true,
+    "has_incident_type": false,
+    "completeness_items": {
+      "has_location": false,
+      "has_affected_people": true,
+      "has_incident_type": false,
+      "has_minimum_detail": true
+    },
+    "completeness_score": 0.5,
+    "text_is_empty": false
+  },
+  "intent_analysis": {
+    "intent": "posible_broma_o_interaccion_improcedente",
+    "has_emergency_intent": false,
+    "has_high_risk_terms": false,
+    "high_risk_terms": []
+  },
+  "coherence_analysis": {
+    "coherence_score": 0.3,
+    "evasive_responses": [
+      "quien sabe",
+      "da igual"
+    ],
+    "simple_contradictions": [],
+    "topic_shift_markers": [
+      "otra cosa",
+      "musica",
+      "music"
+    ],
+    "sentence_count": 5
+  },
+  "score": {
+    "seriousness_score": 0.0,
+    "improcedence_score": 0.75,
+    "confidence": 0.63,
+    "recommendation": "pedir_mas_informacion",
+    "evidence": [
+      "Se detectaron terminos asociados a broma o burla.",
+      "Falta informacion critica para evaluar el reporte.",
+      "Se mencionan posibles personas afectadas.",
+      "Respuestas evasivas: quien sabe, da igual.",
+      "Intencion estimada: posible_broma_o_interaccion_improcedente."
+    ],
+    "audio_priority": {
+      "used": false,
+      "seriousness_audio_score": null,
+      "audio_reliability": 0.0,
+      "stress_vocal_score": null,
+      "urgency_score": null,
+      "nervousness_score": null
+    },
+    "safety_note": "Estimacion probabilistica. No recomienda colgar ni cerrar llamadas automaticamente."
+  },
+  "recommendation": "pedir_mas_informacion",
+  "evidence": [
+    "Se detectaron terminos asociados a broma o burla.",
+    "Falta informacion critica para evaluar el reporte.",
+    "Se mencionan posibles personas afectadas.",
+    "Respuestas evasivas: quien sabe, da igual.",
+    "Intencion estimada: posible_broma_o_interaccion_improcedente."
+  ]
+}
